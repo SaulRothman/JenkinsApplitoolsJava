@@ -51,10 +51,7 @@ public class BasicTest {
 //        }
 
         // Set your personal Applitols API Key from your environment variables.
-//        eyes.setApiKey(System.getenv("APPLITOOLS_API_KEY"));
-        eyes.setApiKey("rilG2CgQAowQZ8FOoB8xKjK3ycVasAQA99qYSfKCtNoI110");
-
-
+        eyes.setApiKey(System.getenv("APPLITOOLS_API_KEY"));
 
         // set batch name
         eyes.setBatch(batch);
