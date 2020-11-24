@@ -45,10 +45,10 @@ public class BasicTest {
         // Initialize the eyes SDK
         eyes = new Eyes(runner);
 
-        // Raise an error if no API Key has been found.
-        if(isNullOrEmpty(System.getenv("APPLITOOLS_API_KEY"))) {
-            throw new RuntimeException("No API Key found; Please set environment variable 'APPLITOOLS_API_KEY'.");
-        }
+//        // Raise an error if no API Key has been found.
+//        if(isNullOrEmpty(System.getenv("APPLITOOLS_API_KEY"))) {
+//            throw new RuntimeException("No API Key found; Please set environment variable 'APPLITOOLS_API_KEY'.");
+//        }
 
         // Set your personal Applitols API Key from your environment variables.
 //        eyes.setApiKey(System.getenv("APPLITOOLS_API_KEY"));
